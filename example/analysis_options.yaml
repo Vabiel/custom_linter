@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+custom_lint:
+  debug: true
+  verbose: true
+  rules:
+    - no_forbidden_class_names:
+      forbidden_names: [Test, Demo, Example]
+    - no_forbidden_method_names:
+      forbidden_names: [execute, perform, fetch]
+    - avoid_large_methods:
+      max_lines: 20
