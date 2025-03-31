@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE">MIT License</a>
+  <a href="LICENSE">BSD 3-Clause License</a>
 </p>
 
 ---
